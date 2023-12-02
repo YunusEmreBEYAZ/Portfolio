@@ -11,45 +11,49 @@ const Sidebar = () => {
 
             <nav className="nav">
                 <div className="nav__menu">
-                    <ul className="nev__list">
+                    <ul className="nav__list">
                         <li className="nav__item">
-                            <a href="#home" className="nav__link">
+                            <a title='home' href="#home" className="nav__link">
                                 <i className="icon-home"></i>
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="#about" className="nav__link">
+                            <a title='About' href="#about" className="nav__link">
                                 <i className="icon-user-following"></i>
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="#resume" className="nav__link">
+                            <a title='Resume' href="#resume" className="nav__link">
                                 <i className="icon-graduation"></i>
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link">
+                            <a title='Portfolio' href="#portfolio" className="nav__link">
                                 <i className="icon-layers"></i>
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link">
+                            <a title='Contact' href="#contact" className="nav__link">
                                 <i className="icon-note"></i>
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="https://www.linkedin.com/in/yunus-emre-beyaz-410063253/" className="nav__link" target="_blank" rel='noreferrer'>
+                            <a title='Linkedin Profile' href="https://www.linkedin.com/in/yunus-emre-beyaz-410063253/" className="nav__link" target="_blank" rel='noreferrer'>
                                 <i className="icon-social-linkedin"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </nav>
+
+            <div className="nav__footer">
+                <span className="copyright">&copy;  2023</span>
+            </div>
         </aside>
     )
 }
