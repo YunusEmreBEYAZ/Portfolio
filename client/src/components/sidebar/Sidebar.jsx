@@ -25,12 +25,6 @@ const Sidebar = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="" className="nav__link">
-                                <i className="icon-briefcase"></i>
-                            </a>
-                        </li>
-
-                        <li className="nav__item">
                             <a href="#resume" className="nav__link">
                                 <i className="icon-graduation"></i>
                             </a>
@@ -49,8 +43,8 @@ const Sidebar = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="" className="nav__link">
-                                <i className="icon-bubble"></i>
+                            <a href="https://www.linkedin.com/in/yunus-emre-beyaz-410063253/" className="nav__link" target="_blank" rel='noreferrer'>
+                                <i className="icon-social-linkedin"></i>
                             </a>
                         </li>
                     </ul>
