@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Pixelify+Sans:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Roboto:wght@400;500;700&display=swap');
 
 :root {
-  --first-color: hsl(353, 100%, 65%);
+  --first-color: hsl(353, 57%, 37%);
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
@@ -123,14 +123,15 @@ img {
 }
 
 .btn {
-  padding: 0.75re 2rem;
+  padding: 0.75rem 2rem;
   line-height: 1;
   border-radius: 1.875rem;
   box-shadow: 0 0 1px rgb(0 0 0 / 0%);
   border: 1px solid transparent;
   color: #fff;
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: rgba(244, 0, 0, 0.5);
+  ;
   font-weight: var(--font-bold);
 }
 
