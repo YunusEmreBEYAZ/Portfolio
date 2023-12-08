@@ -1,0 +1,44 @@
+.about__container {
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+}
+
+.about__data {
+    padding: 1.875rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+    align-items: flex-start;
+    position: relative;
+}
+
+.about__data::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid var(--container-color);
+    position: absolute;
+    left: -0.90rem;
+    top: 2rem;
+}
+
+.about__skills {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.about__img {
+
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: var(--border-radius);
+
+}
+
+.about__description {
+    margin-bottom: 1.5rem;
+}
