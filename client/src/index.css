@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 :root {
   --first-color: hsl(353, 57%, 37%);
@@ -50,8 +50,8 @@ body,
 button,
 input,
 textarea {
-  --font-family: var(--body-font);
-  --font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
 }
 
 body {
@@ -114,12 +114,14 @@ img {
 
 .section__title::before {
   content: '';
-  background: url(./assets/bg.jpeg);
-  height: 2.25rem;
-  width: 2.25rem;
+  background: rgba(244, 0, 0, 0.5);
+  height: 2.50rem;
+  width: 2.50rem;
   position: absolute;
   left: -0.875rem;
   top: -0.875rem;
+  border-radius: 20px;
+
 }
 
 .btn {
