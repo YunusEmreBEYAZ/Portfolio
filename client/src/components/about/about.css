@@ -101,7 +101,23 @@
 }
 
 .about__boxes {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4rem;
+}
+
+.about__box {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.about__icon {
+    font-size: var(--h1-font-size);
+    color: rgba(199, 192, 192, 90%);
+}
+
+.about__title {
+    font-size: 1.5rem;
 }
 
 
