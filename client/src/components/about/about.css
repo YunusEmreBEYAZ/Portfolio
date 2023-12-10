@@ -27,7 +27,32 @@
 }
 
 .about__skills {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__number {
+    line-height: 1.2;
+}
+
+.skills__bar,
+.skills_percentage {
+    height: 7px;
+    border-radius: 0.25rem;
+    margin-bottom: 5px;
+}
+
+.skills__bar {
+    background-color: #f1f1f1;
 }
 
 

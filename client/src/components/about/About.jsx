@@ -12,7 +12,7 @@ const About = () => {
 
                 <div className="about__data grid">
                     <div className="about__info">
-                        <p className="about__description">I am Yunus Emre BEYAZ from Amsterdam. Create-Design-Travel-Enjoy</p>
+                        <p className="about__description">I am Yunus Emre BEYAZ from Amsterdam. Experienced frontend developer. Create-Design-Travel-Enjoy</p>
                         <a href="" className="btn">Get CV</a>
                     </div>
 
