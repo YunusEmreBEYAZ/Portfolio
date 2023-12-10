@@ -33,6 +33,7 @@
 .skills__titles {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3px;
 }
 
 .skills__name {
@@ -48,12 +49,58 @@
 .skills_percentage {
     height: 7px;
     border-radius: 0.25rem;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .skills__bar {
     background-color: #f1f1f1;
 }
+
+.skills_percentage {
+    display: block;
+}
+
+.react {
+    width: 90%;
+    background-color: rgb(144, 255, 92);
+}
+
+.javascript {
+    width: 90%;
+    background-color: rgb(144, 255, 92);
+}
+
+.databases {
+    width: 75%;
+    background-color: rgb(198, 255, 92);
+}
+
+.apis {
+    width: 90%;
+    background-color: rgb(144, 255, 92);
+}
+
+.typescript {
+    width: 75%;
+    background-color: rgb(198, 255, 92);
+}
+
+.docker {
+    width: 60%;
+    background-color: rgb(255, 252, 92);
+}
+
+.nodejs {
+    width: 75%;
+    background-color: rgb(198, 255, 92);
+}
+
+.mongodb {
+    width: 80%;
+    background-color: rgb(171, 255, 92);
+}
+
+
 
 
 .about__img {

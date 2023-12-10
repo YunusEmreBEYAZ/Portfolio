@@ -23,18 +23,18 @@ const About = () => {
                                 <span className="skills__number">85%</span>
                             </div>
 
-                            <div className="skills__bar">
-                                <span className="skills__percentage"></span>
+                            <div className="skills__bar react">
+                                <span className="skills__percentage "></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Javascript</h3>
-                                <span className="skills__number">75%</span>
+                                <span className="skills__number">85%</span>
                             </div>
 
-                            <div className="skills__bar">
+                            <div className="skills__bar javascript">
                                 <span className="skills__percentage"></span>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const About = () => {
                                 <span className="skills__number">75%</span>
                             </div>
 
-                            <div className="skills__bar">
+                            <div className="skills__bar databases">
                                 <span className="skills__percentage"></span>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const About = () => {
                                 <span className="skills__number">85%</span>
                             </div>
 
-                            <div className="skills__bar">
+                            <div className="skills__bar apis">
                                 <span className="skills__percentage"></span>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const About = () => {
                                 <span className="skills__number">75%</span>
                             </div>
 
-                            <div className="skills__bar">
+                            <div className="skills__bar typescript">
                                 <span className="skills__percentage"></span>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const About = () => {
                                 <span className="skills__number">50%</span>
                             </div>
 
-                            <div className="skills__bar">
+                            <div className="skills__bar docker">
                                 <span className="skills__percentage"></span>
                             </div>
                         </div>
@@ -89,18 +89,18 @@ const About = () => {
                                 <span className="skills__number">75%</span>
                             </div>
 
-                            <div className="skills__bar">
+                            <div className="skills__bar nodejs">
                                 <span className="skills__percentage"></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className="skills__name">TypeScript</h3>
-                                <span className="skills__number">75%</span>
+                                <h3 className="skills__name">MongoDB</h3>
+                                <span className="skills__number">80%</span>
                             </div>
 
-                            <div className="skills__bar">
+                            <div className="skills__bar mongodb">
                                 <span className="skills__percentage"></span>
                             </div>
                         </div>
