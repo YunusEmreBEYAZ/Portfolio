@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutMe from "../../assets/about.jpeg"
+import AboutBox from './AboutBox';
 
 const About = () => {
     return (
@@ -107,6 +108,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <AboutBox />
         </section>
     )
 }

@@ -87,7 +87,7 @@
 
 .docker {
     width: 60%;
-    background-color: rgb(255, 252, 92);
+    background-color: rgb(255, 198, 92);
 }
 
 .nodejs {
@@ -98,6 +98,10 @@
 .mongodb {
     width: 80%;
     background-color: rgb(171, 255, 92);
+}
+
+.about__boxes {
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
