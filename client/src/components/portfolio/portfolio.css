@@ -1,0 +1,26 @@
+.work__filters {
+    display: flex;
+    align-items: center;
+    column-gap: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.work__item {
+    cursor: pointer;
+    font-weight: var(--font-bold);
+}
+
+.work__item:hover {
+    color: var(--first-color);
+    transition: 2s;
+}
+
+.work__container {
+    grid-template-columns: repeat(3, 2fr);
+    gap: 1.875rem;
+}
+
+.app__img {
+    width: 20rem;
+    height: 15rem;
+}
