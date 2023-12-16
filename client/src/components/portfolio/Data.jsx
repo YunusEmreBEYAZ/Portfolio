@@ -9,31 +9,31 @@ const Data = [
         id: 1,
         image: Qa,
         title: "Question-Answer App",
-        Category: "Project"
+        category: "Project"
     },
     {
         id: 2,
         image: WeShare,
         title: "Social Media App",
-        Category: "Project"
+        category: "Project"
     },
     {
         id: 3,
         image: Todo,
         title: "Todo App",
-        Category: "Project"
+        category: "Project"
     },
     {
         id: 4,
         image: Guess,
         title: "Guess My Number App",
-        Category: "Project"
+        category: "Project"
     },
     {
         id: 5,
         image: Dice,
         title: "Dice Game App",
-        Category: "Project"
+        category: "Project"
     }
 ]
 
