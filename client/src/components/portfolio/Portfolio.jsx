@@ -4,16 +4,25 @@ import Data from './Data';
 
 const Portfolio = () => {
     const [items, setItems] = useState(Data);
+
+    const filterItem = (item) => {
+        const updatedItems = Data.filter((curItem) => {
+            return curItem.title === item;
+        })
+
+        setItems(updatedItems)
+    }
     return (
         <section className="work container section" id='work'>
             <h2 className="section__title">Recent Apps</h2>
 
             <div className="work__filters">
-                <span className="work__item">Q-A</span>
-                <span className="work__item">We Share</span>
-                <span className="work__item">Todo App</span>
-                <span className="work__item">Guess The Number</span>
-                <span className="work__item">Dice Game</span>
+                <span className="work__item">All Projects</span>
+                <span className="work__item" onClick={() => filterItem("Question-Answer App")}>Q-A</span>
+                <span className="work__item" onClick={() => filterItem("Social Media App")}>We Share</span>
+                <span className="work__item" onClick={() => filterItem("Todo App")}>Todo App</span>
+                <span className="work__item" onClick={() => filterItem("Guess My Number App")}>Guess The Number</span>
+                <span className="work__item" onClick={() => filterItem("Dice Game App")}>Dice Game</span>
             </div>
 
             <div className="work__container grid">
