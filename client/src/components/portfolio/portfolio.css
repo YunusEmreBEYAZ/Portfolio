@@ -42,7 +42,7 @@
 
 .work__card:hover .work__mask {
     position: absolute;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .work__category {
