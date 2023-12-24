@@ -27,8 +27,8 @@ const Contact = () => {
                         <input type="text" className="contact__form-input" placeholder='What is the subject?' />
                     </div>
 
-                    <div className="contact__form-div">
-                        <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your message here please'></textarea>
+                    <div className="contact__form-div message-area">
+                        <textarea name="" id="" cols="30" rows="10" className='contact__form-input ' placeholder='Write your message here please'></textarea>
                     </div>
 
                     <button className="btn">Send</button>
