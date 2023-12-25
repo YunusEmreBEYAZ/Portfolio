@@ -17,7 +17,7 @@ const Contact = () => {
         return (
             <section className="contact container section" id="contact">
                 <h2 className="section__title">Thank You for Your Mail!</h2>
-                <p>Thanks for your mail, I will contact with you soon!</p>
+                <p>Thanks for your mail, I will contact with you soon! Just let me finish my coffee...</p>
             </section>
         )
     }
@@ -41,6 +41,7 @@ const Contact = () => {
                                 name='name'
                                 className="contact__form-input"
                                 placeholder='What is your name?'
+                                required
                             />
 
                             <ValidationError
@@ -56,6 +57,7 @@ const Contact = () => {
                                 name='email'
                                 className="contact__form-input"
                                 placeholder='What is your email?'
+                                required
                             />
 
                             <ValidationError
@@ -72,6 +74,7 @@ const Contact = () => {
                             name='subject'
                             className="contact__form-input"
                             placeholder='What is the subject?'
+                            required
                         />
 
                         <ValidationError
@@ -86,7 +89,9 @@ const Contact = () => {
                             name="message"
                             cols="30" rows="10"
                             className='contact__form-input '
+                            required
                             placeholder='Write your message here please'></textarea>
+
                         <ValidationError
                             prefix="message"
                             field="message"
