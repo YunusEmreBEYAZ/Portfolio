@@ -7,10 +7,13 @@ import Resume from "./components/resume/Resume.jsx";
 import Sidebar from "./components/sidebar/Sidebar.jsx";
 import Contact from './components/contact/Contact.jsx';
 
+
 function App() {
   return (
     <>
+
       <Sidebar />
+
       <main className='main'>
         <Home />
         <About />
