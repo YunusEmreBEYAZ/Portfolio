@@ -7,7 +7,7 @@ const Modal = ({ message, onClose }) => {
     return (
         <div className="modal">
             <div className="modal-content">
-                <p>{message}</p>
+                <p className='warning'>{message}</p>
                 <button className="btn" onClick={onClose}>OK</button>
             </div>
         </div>
