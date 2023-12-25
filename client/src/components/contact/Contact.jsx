@@ -24,12 +24,13 @@ const Contact = () => {
 
     return (
         <section className="contact container section" id='contact'>
-            <h2 className="section__title">Reach Me Out</h2>
+            <h2 className="section__title">Reach Me !</h2>
 
             <div className="contact__container grid">
                 <div className="contact__info">
-                    <h3 className="contact__title">Let's Contact</h3>
-                    <p className="contact__details">Send me an e-mail</p>
+                    <h3 className="contact__title">Contact !!!</h3>
+                    <p className="contact__details">Do you want to work with me? <br />Have a question about something? <br />
+                        Or just want to try it?<br /> Then send me an e-mail</p>
                 </div>
 
                 <form ref={formRef} onSubmit={handleSubmit}

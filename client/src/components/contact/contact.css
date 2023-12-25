@@ -53,3 +53,8 @@
 .button__submit {
     text-align: center;
 }
+
+.contact__details {
+    justify-content: center;
+    text-align: start;
+}
