@@ -31,12 +31,12 @@
 }
 
 .home__social-link {
-    color: rgba(244, 0, 0, 0.5);
+    color: hsl(216, 15%, 6%);
     font-size: 1.2rem;
 }
 
 .home__social-link:hover {
-    color: rgba(18, 165, 5, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .scroll__down {

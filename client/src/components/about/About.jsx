@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./about.css";
 import AboutMe from "../../assets/about.jpeg"
 import AboutBox from './AboutBox';
 
+const Modal = ({ message, onClose }) => {
+    return (
+        <div className="modal">
+            <div className="modal-content">
+                <p>{message}</p>
+                <button className="btn" onClick={onClose}>OK</button>
+            </div>
+        </div>
+    );
+};
+
 const About = () => {
+    const [showModal, setShowModal] = useState(false);
+
+
+    const getCv = () => {
+        setShowModal(true)
+    }
+    const closeModal = () => {
+        setShowModal(false)
+
+    }
     return (
         <section className="about container section" id='about'>
             <h2 className="section__title">About Me</h2>
@@ -14,7 +35,15 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">I am Yunus Emre BEYAZ from Amsterdam. Experienced frontend developer. Create-Design-Travel-Enjoy</p>
-                        <a href="" className="btn">Get CV</a>
+                        <button href="" className="btn" onClick={getCv}>Get CV</button>
+
+                        {showModal && (
+                            <Modal
+                                message="I'm Sorry But This CV Contains Private Informations. Please Contact For my CV!"
+                                onClose={closeModal}
+                            />
+                        )}
+
                     </div>
 
                     <div className="about__skills grid">
@@ -110,6 +139,7 @@ const About = () => {
             </div>
 
             <AboutBox />
+
         </section>
     )
 }

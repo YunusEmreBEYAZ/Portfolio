@@ -4,8 +4,9 @@
   --first-color: hsl(187, 57%, 37%);
   --title-color: hsl(0, 41%, 90%);
   --text-color: hsl(12, 29%, 69%);
-  --body-color: hsl(260, 55%, 15%);
-  --container-color: hsl(260, 70%, 20%);
+  --body-color: linear-gradient(to right, hsl(216, 15%, 6%), hsl(0, 41%, 90%));
+  ;
+  --container-color: hsl(257, 3%, 58%);
   --body-font: 'Roboto', sans-serif;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;

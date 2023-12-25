@@ -14,6 +14,10 @@
     position: relative;
 }
 
+.about__info {
+    grid-template-rows: repeat(3, 1fr);
+}
+
 .about__data::before {
     content: "";
     width: 0;
@@ -133,4 +137,8 @@
 
 .about__description {
     margin-bottom: 1.5rem;
+}
+
+.modal-content {
+    margin-top: 0.5rem;
 }
