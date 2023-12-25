@@ -49,3 +49,7 @@
 .message-area textarea {
     resize: none;
 }
+
+.button__submit {
+    text-align: center;
+}

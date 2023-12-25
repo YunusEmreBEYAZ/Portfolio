@@ -98,8 +98,9 @@ const Contact = () => {
                             errors={state.errors}
                         />
                     </div>
-
-                    <button type='submit' disabled={state.submitting} className="btn">Send</button>
+                    <div className="button__submit">
+                        <button type='submit' disabled={state.submitting} className="btn">Send</button>
+                    </div>
                 </form>
             </div>
         </section>

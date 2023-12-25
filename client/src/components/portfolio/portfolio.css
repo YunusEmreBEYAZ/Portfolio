@@ -1,18 +1,20 @@
 .work__filters {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     column-gap: 1.875rem;
     margin-bottom: 2.5rem;
 }
 
 .work__item {
     cursor: pointer;
+    font-size: larger;
     font-weight: var(--font-bold);
 }
 
 .work__item:hover {
     color: var(--first-color);
-    transition: 2s;
+    transition: 1.5s;
 }
 
 .work__container {

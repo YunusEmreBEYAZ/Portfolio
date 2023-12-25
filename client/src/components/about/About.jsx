@@ -22,7 +22,7 @@ const About = () => {
         setShowModal(true)
     }
     const closeModal = () => {
-        setShowModal(false)
+        setShowModal(false);
 
     }
     return (

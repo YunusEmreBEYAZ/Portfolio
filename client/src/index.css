@@ -3,7 +3,7 @@
 :root {
   --first-color: hsl(187, 57%, 37%);
   --title-color: hsl(0, 41%, 90%);
-  --text-color: hsl(12, 29%, 69%);
+  --text-color: hsl(270, 3%, 16%);
   --body-color: linear-gradient(to right, hsl(216, 15%, 6%), hsl(0, 41%, 90%));
   ;
   --container-color: hsl(257, 3%, 58%);

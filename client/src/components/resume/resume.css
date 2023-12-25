@@ -43,7 +43,7 @@
 }
 
 .timeline__date {
-    color: #8b88b1;
+    color: hsl(240, 1%, 13%);
     font-size: var(--small-font-size);
 }
 
