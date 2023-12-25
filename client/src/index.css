@@ -102,6 +102,7 @@ img {
 .section {
   padding-top: 7rem;
   padding-bottom: 2rem;
+  height: 100vh;
 }
 
 .section__title {

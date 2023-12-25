@@ -9,31 +9,36 @@ const Data = [
         id: 1,
         image: Qa,
         title: "Question-Answer App",
-        category: "Project"
+        category: "Project",
+        link: "https://github.com/YunusEmreBEYAZ/Q-A"
     },
     {
         id: 2,
         image: WeShare,
         title: "Social Media App",
-        category: "Project"
+        category: "Project",
+        link: "https://github.com/YunusEmreBEYAZ/WeShare"
     },
     {
         id: 3,
         image: Todo,
         title: "Todo App",
-        category: "Project"
+        category: "Project",
+        link: "https://github.com/YunusEmreBEYAZ/ToDoApp"
     },
     {
         id: 4,
         image: Guess,
         title: "Guess My Number App",
-        category: "Project"
+        category: "Project",
+        link: "https://github.com/YunusEmreBEYAZ/GuessMyNumber"
     },
     {
         id: 5,
         image: Dice,
         title: "Dice Game App",
-        category: "Project"
+        category: "Project",
+        link: "https://github.com/YunusEmreBEYAZ/Dice-Game"
     }
 ]
 
