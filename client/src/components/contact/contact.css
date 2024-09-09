@@ -58,3 +58,26 @@
     justify-content: center;
     text-align: start;
 }
+
+@media screen and (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__form-group {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__form-div {
+        margin-bottom: 1rem;
+    }
+
+    .contact__form-input {
+        padding: 0.5rem 1rem;
+    }
+
+    .message-area {
+        height: 6rem;
+    }
+    
+}
